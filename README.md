@@ -6,3 +6,8 @@
 > So keep it up to date with this program.
 
 [CoreTracker]: <https://github.com/Fhwang0926/CoreTracker>
+
+
+### File
+ - /bin/Release/netcoreapp3.1/CoreTrakcerHelper.exe
+ - /bin/Release/netcoreapp3.1/CoreTrakcerHelper.dll
