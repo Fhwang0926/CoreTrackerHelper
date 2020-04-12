@@ -11,3 +11,5 @@ C:\Users\hdh09\source\repos\CoreTrackerHelper\bin\Debug\netcoreapp3.1\CoreTracke
 C:\Users\hdh09\source\repos\CoreTrackerHelper\obj\Debug\netcoreapp3.1\CoreTrackerHelper.dll
 C:\Users\hdh09\source\repos\CoreTrackerHelper\obj\Debug\netcoreapp3.1\CoreTrackerHelper.pdb
 C:\Users\hdh09\source\repos\CoreTrackerHelper\obj\Debug\netcoreapp3.1\CoreTrackerHelper.genruntimeconfig.cache
+C:\Users\hdh09\source\repos\CoreTrackerHelper\obj\Debug\netcoreapp3.1\CoreTrackerHelper.Properties.Resources.resources
+C:\Users\hdh09\source\repos\CoreTrackerHelper\obj\Debug\netcoreapp3.1\CoreTrackerHelper.csproj.GenerateResource.cache
