@@ -21,11 +21,7 @@ namespace CoreTrackerHelper
         {
             try
             {
-                while (true)
-                {
-                    RefreshTrayArea();
-                    Thread.Sleep(3000);
-                }
+                RefreshTrayArea();
                 
             } catch (Exception e)
             {
