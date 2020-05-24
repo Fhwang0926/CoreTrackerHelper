@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Net.Http;
 using System.Runtime.InteropServices;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace CoreTrackerHelper
 {
@@ -22,7 +17,7 @@ namespace CoreTrackerHelper
             try
             {
                 RefreshTrayArea();
-                
+
             } catch (Exception e)
             {
 
@@ -35,7 +30,6 @@ namespace CoreTrackerHelper
             
         }
         #region "Refresh Notification Area Icons"
-        string name = System.Diagnostics.Process.GetCurrentProcess().ProcessName;
 
         [StructLayout(LayoutKind.Sequential)]
         public struct RECT
