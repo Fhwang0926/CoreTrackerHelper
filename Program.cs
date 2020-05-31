@@ -12,13 +12,14 @@ namespace CoreTrackerHelper
             if (Directory.Exists(location_x32)) { return location_x32; }
             else { return @"C:\Program Files\CoreTracker"; }
         }
-        static  void Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
                 RefreshTrayArea();
 
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
 
                 using (StreamWriter outputFile = new StreamWriter(Path.Combine(getLocation(), "CoreTrackerHelper.error.log")))
@@ -27,7 +28,7 @@ namespace CoreTrackerHelper
                 }
                 // logging here
             }
-            
+
         }
         #region "Refresh Notification Area Icons"
 
